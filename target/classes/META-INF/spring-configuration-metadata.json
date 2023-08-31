@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "rsa",
+      "type": "com.azubike.ellipsis.springsecuritywithjwt.config.RsaKeyConfig",
+      "sourceType": "com.azubike.ellipsis.springsecuritywithjwt.config.RsaKeyConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "rsa.private-key",
+      "type": "java.security.interfaces.RSAPrivateKey",
+      "sourceType": "com.azubike.ellipsis.springsecuritywithjwt.config.RsaKeyConfig"
+    },
+    {
+      "name": "rsa.public-key",
+      "type": "java.security.interfaces.RSAPublicKey",
+      "sourceType": "com.azubike.ellipsis.springsecuritywithjwt.config.RsaKeyConfig"
+    }
+  ],
+  "hints": []
+}
